@@ -35,10 +35,11 @@ export CLICOLOR="1"
 YELLOW="\[\033[1;33m\]"
 NO_COLOUR="\[\033[0m\]"
 GREEN="\[\033[1;32m\]"
+WHITE="\[\033[1;37m\]"
 
 source ~/.scripts/git-prompt.sh
 
-export PS1="\[\033[1;36m\]λ \h $GREEN\w$YELLOW\$(__git_ps1 \" \[\033[35m\]{\[\033[36m\]%s\[\033[35m\]}\")$NO_COLOUR "
+export PS1="\[\033[1;33m\]λ $WHITE\h $GREEN\w$YELLOW\$(__git_ps1 \" \[\033[35m\]{\[\033[36m\]%s\[\033[35m\]}\")$NO_COLOUR "
 
 # Git
 
