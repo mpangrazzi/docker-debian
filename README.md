@@ -18,6 +18,16 @@ It's *heavily* inspired by [dockerfile/ubuntu](https://registry.hub.docker.com/u
 - **locale** correctly set to **en_US.UTF-8**
 - No silly warnings during `docker build`
 
+### PS1
+
+Bash **$PS1** is meant to as significative as possibile, and it in the following form:
+
+**λ** {container's **hostname**} {current **path**} {current git **branch**}
+
+<p>
+    <img src="docs/ps1.png">
+</p>
+
 ### Base image
 
 - [debian:wheezy]
