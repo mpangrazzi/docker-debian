@@ -3,6 +3,8 @@
 # Debian
 #
 
+MAINTAINER Michele Pangrazzi <xmikex83@gmail.com>
+
 FROM debian:wheezy
 
 # ENV variables
