@@ -28,7 +28,7 @@ It's *heavily* inspired by [dockerfile/ubuntu](https://registry.hub.docker.com/u
 
 or:
 
-`docker build -t="mpangrazzi/debian" github.com/mpangrazzi/debian`
+`docker build -t="mpangrazzi/debian" github.com/mpangrazzi/docker-debian`
 
 ### Usage
 
