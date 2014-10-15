@@ -3,9 +3,9 @@
 # Debian
 #
 
-MAINTAINER Michele Pangrazzi <xmikex83@gmail.com>
-
 FROM debian:wheezy
+
+MAINTAINER Michele Pangrazzi <xmikex83@gmail.com>
 
 # ENV variables
 

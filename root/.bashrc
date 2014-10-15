@@ -38,7 +38,7 @@ GREEN="\[\033[1;32m\]"
 
 source ~/.scripts/git-prompt.sh
 
-export PS1="\[\033[1;37m\]λ $GREEN\w$YELLOW\$(__git_ps1 \" \[\033[35m\]{\[\033[36m\]%s\[\033[35m\]}\")$NO_COLOUR "
+export PS1="\[\033[1;36m\]λ \h $GREEN\w$YELLOW\$(__git_ps1 \" \[\033[35m\]{\[\033[36m\]%s\[\033[35m\]}\")$NO_COLOUR "
 
 # Git
 
